@@ -1,0 +1,72 @@
+/* Set font and overall page background */
+html, body, [class*="main"] {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5ede6; /* Light green */
+}
+
+/* Main content container background */
+.block-container {
+    background-color: #e6e8f5;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Title and headers */
+h1, h2, h3 {
+    color: #004d40 !important;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #e0f0ff; /* Light blue */
+    padding-top: 2rem;
+}
+
+/* Dropdowns, date inputs, and labels */
+label, .stSelectbox label, .stDateInput label {
+    font-weight: bold !important;
+    font-size: 1.05rem;
+}
+
+/* Make date inputs and select boxes bold and larger */
+[data-baseweb="select"], [data-testid="stDateInput"] {
+    font-size: 1.05rem !important;
+    font-weight: 600;
+}
+
+/* Style download button */
+button[data-testid="baseButton-download"] {
+    background-color: #00695c;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    border: none;
+}
+
+button[data-testid="baseButton-download"]:hover {
+    background-color: #004d40;
+}
+
+/* Style metric boxes */
+[data-testid="metric-container"] {
+    background-color: #ffffff;
+    border: 1px solid #b2dfdb;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+[data-testid="metric-container"] > div {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Add hover effect to containers if needed */
+.stContainer:hover {
+    transition: 0.3s;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+
