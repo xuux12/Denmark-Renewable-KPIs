@@ -3,17 +3,13 @@
 
 A Streamlit app visualizing wind and solar KPIs in Denmark over time.
 
-## Features
 
-- 📈 Line charts by energy type
-- 📊 Year-over-Year analysis
-- 🎛️ Sidebar filters
-- 🌗 Light/Dark mode
 
 
 # 🇩🇰 Denmark Renewable Energy KPI Dashboard 🌱
 
-This Streamlit dashboard visualizes key performance indicators (KPIs) for renewable energy in Denmark, focusing on **wind onshore**, **wind offshore**, and **solar photovoltaic** sources.
+This Streamlit dashboard visualizes key performance indicators (KPIs) for renewable energy in Denmark,
+focusing on **wind onshore**, **wind offshore**, and **solar photovoltaic** sources.
 
 ---
 
@@ -32,7 +28,9 @@ This Streamlit dashboard visualizes key performance indicators (KPIs) for renewa
 
 ## 📂 Getting Started
 
-📊 Example Analysis You Can Draw from This View
+📊 Example Analysis
+
+You Can Draw from This View
 “Between September 5th and 10th, offshore wind generation spiked above 2000 MWh, 
 while onshore remained below 1400 MWh. Offshore consistently outperformed onshore in this time period,
 suggesting stronger wind conditions at sea or higher installed capacity.”
@@ -44,7 +42,7 @@ This kind of analysis is possible with just a few clicks using the date filter a
 git clone https://github.com/xuux12/denmark-renewable-kpi-dashboard.git
 cd denmark-renewable-kpi-dashboard/dashboard
 
-## Getting Started
+
 
 
 
