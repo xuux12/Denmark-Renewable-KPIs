@@ -93,7 +93,8 @@ with st.sidebar:
     if compare:
         compare_energy = st.selectbox("Compare With", [e for e in ["wind_onshore", "wind_offshore", "solar_photovoltaic"] if e != energy_type])
 
-    DATA_PATH = r"C:/Users/Owner/Desktop/renewable_energy_pipeline/dashboard/kpis.csv"
+    DATA_PATH = "kpis.csv"
+
     if not os.path.exists(DATA_PATH):
         st.error("❌ KPI file not found. Please run the ETL pipeline first.")
         st.stop()
