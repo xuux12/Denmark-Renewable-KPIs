@@ -36,6 +36,9 @@ while onshore remained below 1400 MWh. Offshore consistently outperformed onshor
 suggesting stronger wind conditions at sea or higher installed capacity.”
 This kind of analysis is possible with just a few clicks using the date filter and comparison toggle in the sidebar.
 
+
+## Denmark Energy https://denmark-renewable.streamlit.app/
+
 ### 1. Clone this repository:
 
 ```bash
