@@ -8,7 +8,8 @@ st.set_page_config(page_title="Map of Power Plants", layout="wide")
 st.title("🗺️ Map of Renewable Power Plants in Denmark")
 
 # --- Load Data ---
-DATA_PATH = 'C:/Users/Owner/Desktop/renewable_energy_pipeline/data/raw/renewable_power_plants_DK.csv'
+DATA_PATH = DATA_PATH = './Denmark-Renewable-KPIs/dashboard/pages/renewable_power_plants_DK.csv'
+
 
 
 if not os.path.exists(DATA_PATH):
