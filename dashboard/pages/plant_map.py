@@ -8,7 +8,8 @@ st.set_page_config(page_title="Map of Power Plants", layout="wide")
 st.title("🗺️ Map of Renewable Power Plants in Denmark")
 
 # --- Load Data ---
-DATA_PATH = DATA_PATH = './Denmark-Renewable-KPIs/dashboard/pages/renewable_power_plants_DK.csv'
+
+DATA_PATH = os.path.join(os.path.dirname(__file__), "renewable_power_plants_DK.csv")
 
 
 
